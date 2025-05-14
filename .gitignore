@@ -1,0 +1,106 @@
+###Custom###
+application-local.yml
+
+# Maven target 目录
+/target/
+target/
+**/target/
+**/target/**
+target-*/
+target-*/**
+target-*/*
+
+# 日志文件
+*.log
+logs/
+log/
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*.bak
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# MacOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows 系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Eclipse 配置
+.project
+.classpath
+.settings/
+.factorypath
+bin/
+build/
+
+# IntelliJ IDEA 配置
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# VS Code 配置
+.vscode/
+*.code-workspace
+.history/
+
+# maven wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# 本地环境变量
+.env
+*.env
+.env.local
+.env.*.local
+
+# Spring Boot
+spring-boot-devtools.restart.trigger-file
+
+# 编译输出
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# 测试覆盖率报告
+coverage/
+.coverage
+htmlcov/
+
+# 依赖目录
+node_modules/
+bower_components/
+jspm_packages/
+
+# 其他
+*.properties
+!src/main/resources/application.properties
+*.yml
+!src/main/resources/application.yml
+*.yaml
+!src/main/resources/application.yaml
